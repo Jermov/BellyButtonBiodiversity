@@ -3,7 +3,7 @@
 ## Summary
 This project stems from the work done at the Rob Dunn Lab in NC State University: [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which works to catalog the microbes that are present within the human belly button.
 
-Finished hosted application can be found at <insert link to githubio here>.
+Finished hosted application can be found: [HERE!](https://jermov.github.io/BellyButtonBiodiversity/)
 
 ### General Info: Finished Application
 The dashboard opens with the first row of data loaded to provide a visualization upon initialization:
@@ -35,15 +35,15 @@ Simply used the provided starter code for the html file. This provided me the te
 
 ### Step 2: Plotly chart creation and selector<br>
 The app.js javascript specifies the layout for each chart as well as the variables used to create the charts.<br><br> 
-The Selector Drop down that updates the demographic information, charts and gauge upon selection:
+The Selector Drop down that updates the demographic information, charts and gauge upon selection: <br>
 ![Subject ID](images/TestSubject_DemoGraphic.PNG)<br>
-The bar chart lists the top ten microbe types within the subject id selected:
+The bar chart lists the top ten microbe types within the subject id selected:<br>
 ![Bar Chart](images/BarChart.PNG)<br>
-The frequency gauge indicates the number of times a subject washed their naval in a week:
+The frequency gauge indicates the number of times a subject washed their naval in a week:<br>
 ![Gauge](images/Gauge.PNG)<br>
-The bubble chart gives a visual overview of the microbe count within each subject id: 
+The bubble chart gives a visual overview of the microbe count within each subject id:<br>
 ![Bubble Chart](images/BubbleChart.PNG)<br><br>
 ### Step 3: Gauge and chart refreshes<br>
 The bonus.js gives functionality for the gauge. Part of my troubleshooting found that in creating the functionality of the gauge, I lost the refresh abilities of the other charts. This caused some code overlap within the bonus.js to ensure when a subject id is selected that the data refreshed within the charts. This corrected the lost bubble and bar charts on selection change, but added possible unnecessary code. Plan to return to this when time permits to better troubleshoot the issue.<br><br>
-### At the end of the project, with all the issues of losing charts as I attempted to implement gauge refresh capabilities let me feeling a little like: 
+### At the end of the project, after all the issues of lost charts as I attempted to implement gauge refresh capabilities I was left feeling a little like: 
 ![Patrick!](images/patrick.jpg)
